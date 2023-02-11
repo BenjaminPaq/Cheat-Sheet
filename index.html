@@ -2,18 +2,24 @@
 <html>
     <head>
         <Title>Cheatsheet</Title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Cheatsheet Project: Semantic Elements</h1>
+        <header id="title">
+            <h1>Cheatsheet Project: Semantic Elements</h1>
+        </header>
         <h2>Introduction</h2>
         <p>Semantic HTML is the application of HTML markup that reinforces the semantics, or meaning, of the information of the webpage rather than define its presentation or look. Semantic HTML is an important component of webpages; not only does it provide a browser context as to what is between it’s tags, but it also meets compliance standards for those with disabilities accessing pages through screen readers. Finally, applying semantics HTML can help improve a page’s search performance from a Search Engine Optimization perspective.</p>
-        <h2>Primary Semantic Elements</h2>
-                <table>
+        <h2 class="table-heading">Primary Semantic Elements</h2>
+                <table id="primary">
+                    <thead>
                         <tr>
-                            <th>HTML Tag</th>
-                            <th>Title Tag</th>
-                            <th>Description</th>
+                            <th class="tag">HTML Tag</th>
+                            <th class="title">Title Tag</th>
+                            <thc class="description">Description</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>&lt;article&gt;</td>
                             <td>Article</td>
@@ -74,9 +80,10 @@
                             <td>Video</td>
                             <td>Defines video content</td>
                         </tr>
+                    </tbody>
                 </table>
-           <h2>Additional Semantic Elements</h2>
-                <table>
+           <h2 class="table-heading">Additional Semantic Elements</h2>
+                <table id="secondary">
                         <tr>
                             <th>HTML Tag</th>
                             <th>Title Tag</th>
