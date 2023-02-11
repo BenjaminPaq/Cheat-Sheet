@@ -3,6 +3,9 @@
     <head>
         <Title>Cheatsheet</Title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
     </head>
     <body>
         <header id="title">
@@ -10,7 +13,7 @@
         </header>
         <div id="open">
             <h2>Introduction</h2>
-            <p>Semantic HTML is the application of HTML markup that reinforces the semantics, or meaning, of the information of the webpage rather than define its presentation or look. Semantic HTML is an important component of webpages; not only does it provide a browser context as to what is between it’s tags, but it also meets compliance standards for those with disabilities accessing pages through screen readers. Finally, applying semantics HTML can help improve a page’s search performance from a Search Engine Optimization perspective.</p>
+            <p>Semantic HTML is the application of HTML markup that reinforces the semantics, or meaning, of the information of the webpage rather than define its presentation or look. Semantic HTML is an important component of webpages; not only does it provide a browser context as to what is between it’s tags, but it also meets compliance standards for those with disabilities accessing pages through screen readers. Finally, applying semantic HTML can help improve a page’s search performance from a Search Engine Optimization perspective, making your webpage more visible to the world.</p>
         </div>
         <h2 class="table-heading">Primary Semantic Elements</h2>
                 <table id="primary">
@@ -23,62 +26,62 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>&lt;article&gt;</td>
+                            <td><span class="code">&lt;article&gt;</span></td>
                             <td>Article</td>
                             <td>Defines an article, blog or news section</td>
                         </tr>
-                        <tr>
-                            <td>&lt;aside&gt;</td>
+                        <tr class="alt">
+                            <td><span class="code">&lt;aside&gt;</span></td>
                             <td>Aside</td>
-                            <td>Defines content related to &lt;main&gt;</td>
+                            <td>Defines content related to <span class="code">&lt;main&gt;</span></td>
                         </tr>
                         <tr>
-                            <td>&lt;audio&gt;</td>
+                            <td><span class="code">&lt;audio&gt;</span></td>
                             <td>Audio</td>
                             <td>Defines audio content</td>
                         </tr>
-                        <tr>
-                            <td>&lt;embed&gt;</td>
+                        <tr class="alt">
+                            <td><span class="code">&lt;embed&gt;</span></td>
                             <td>Embed</td>
                             <td>Defines externally linked content</td>
                         </tr>
                         <tr>
-                            <td>&lt;figcaption&gt;</td>
+                            <td><span class="code">&lt;figcaption&gt;</span></td>
                             <td>Figure Caption</td>
-                            <td>Describes media in the &lt;figure&gt;</td>
+                            <td>Describes media in the <span class="code">&lt;figure&gt;</span></td>
                         </tr>
-                        <tr>
-                            <td>&lt;figure&gt;</td>
+                        <tr class="alt">
+                            <td><span class="code">&lt;figure&gt;</span></td>
                             <td>Figure</td>
                             <td>Describes any media type</td>
                         </tr>
                         <tr>
-                            <td>&lt;footer&gt;</td>
+                            <td><span class="code">&lt;footer&gt;</span></td>
                             <td>Footer</td>
                             <td>Defines the bottom content of the page</td>
                         </tr>
-                        <tr>
-                            <td>&lt;header&gt;</td>
+                        <tr class="alt">
+                            <td><span class="code">&lt;header&gt;</span></td>
                             <td>Header</td>
                             <td>Defines the top content of the page</td>
                         </tr>
                         <tr>
-                            <td>&lt;main&gt;</td>
+                            <td><span class="code">&lt;main&gt;</span></td>
                             <td>Main</td>
                             <td>Defines the primary content of the page</td>
                         </tr>
-                        <tr>
-                            <td>&lt;nav&gt;</td>
+                        <tr class="alt">
+                            <td><span class="code">&lt;nav&gt;</span></td>
                             <td>Navigation</td>
                             <td>Defines navigation links</td>
                         </tr>
                         <tr>
-                            <td>&lt;section&gt;</td>
+                            <td><span class="code">&lt;section&gt;</span></td>
                             <td>Section</td>
                             <td>Defines a specific page section</td>
                         </tr>
-                        <tr>
-                            <td>&lt;video&gt;</td>
+                        <tr class="alt">
+                            <td><span class="code">&lt;video&gt;</span></td>
                             <td>Video</td>
                             <td>Defines video content</td>
                         </tr>
@@ -86,40 +89,42 @@
                 </table>
            <h2 class="table-heading">Additional Semantic Elements</h2>
                 <table id="secondary">
+                    <thead>
                         <tr>
                             <th>HTML Tag</th>
                             <th>Title Tag</th>
                             <th>Description</th>
                         </tr>
+                    </thead>
                         <tr>
-                            <td>&lt;data&gt;</td>
+                            <td><span class="code">&lt;data&gt;</span></td>
                             <td>Data</td>
                             <td>Defines content to be read by virtual machine-reader</td>
                         </tr>
-                        <tr>
-                            <td>&lt;details&gt;</td>
+                        <tr class="alt">
+                            <td><span class="code">&lt;details&gt;</span></td>
                             <td>Details</td>
                             <td>Defines additional details to a webpage</td>
                         </tr>
                         <tr>
-                            <td>&lt;dialouge&gt;</td>
+                            <td><span class="code">&lt;dialouge&gt;</span></td>
                             <td>Dialouge</td>
                             <td>Defines a dialouge box or window</td>
                         </tr>
-                        <tr>
-                            <td>&lt;summary&gt;</td>
+                        <tr class="alt">
+                            <td><span class="code">&lt;summary&gt;</span></td>
                             <td>Summary</td>
                             <td>Defines a visible heading for details</td>
                         </tr>
                         <tr>
-                            <td>&lt;time&gt;</td>
+                            <td><span class="code">&lt;time&gt;</span></td>
                             <td>Time</td>
                             <td>Defines dates and times</td>
                         </tr>
                 </table>
             <div id="close">
                 <h2>Conclusion</h2>
-                <p>There are many benefits to semantic HTML elements – including optimized readability for the user, understanding for developers, and optimization for search engines and webpage rankings. While there are more semantic HTML tags available to use in HTML documents, these tags are among the most common elements developers will come across. In the future, try applying semantic code to a webpage and explore its functionality. For more information about applying semantic tags, follow these helpful links:</p>
+                <p>There are many benefits to semantic HTML elements – including optimized readability for the user, understanding for developers, and optimization for search engines and webpage rankings. While there are more semantic HTML tags available to use in HTML documents, these tags are among the most common elements developers will come across. In the future, try applying semantic code to a webpage and explore its functionality. For more information about what semantic HTML tags do, a full list of semantic tags and how to apply them, follow these helpful links:</p>
                 <ul>
                     <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" rel="external link" >W3 Schools: HTML Semantic Elements</a></li>
                     <li><a href="https://www.freecodecamp.org/news/semantic-html5-elements/" rel="external link">FreeCodeCamp: Semantic HTML5 Elements Explained</a></li>
